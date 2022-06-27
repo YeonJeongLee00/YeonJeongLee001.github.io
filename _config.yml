@@ -16,7 +16,7 @@ url: https://YeonJeongLee00.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: ko
+lang: ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: 잔디
@@ -41,18 +41,33 @@ logo: /assets/img/me.png
 author:
   # Used by `jekyll-feed`:
   name: <Lee> <YeonJeong>
-  email: <yeonjeong.lee00@gmail.com>
+  email: yeonjeong.lee00@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title: CS
-    url: /cs/
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+    submenu:
+      - title: Java
+        url: /java/
+      - title: JavaScript
+        url: /js/
+      - title: Spring
+        url: /spring/
+      - title: Vue
+        url: /vue/
+      - title: Database
+        url: /db/
+      - title: Algorithm
+        url: /algo/
+  # - title: CS
+  #   url: /blog/cs
   # - title: Backend
   #   url: /docs/
-  # - title: About
-  #   url: /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

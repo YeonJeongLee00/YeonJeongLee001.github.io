@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name: <Lee> <Yeonjeong>
-  email: <yeonjeong.lee00@gmail.com>
+  email: yeonjeong.lee00@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -23,8 +23,8 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter: <username>
-    github: <https://github.com/YeonJeongLee00>
-    email: <yeonjeong.lee00@gmail.com>
+    github: YeonJeongLee00
+    email: yeonjeong.lee00@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
