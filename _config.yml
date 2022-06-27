@@ -19,7 +19,7 @@ url: https://YeonJeongLee00.github.io
 lang: ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: 잔디의 잔디심기
+title: 잔디
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -47,12 +47,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Example
-    url: /example/
-  - title: Documentation
-    url: /docs/
-  - title: About
-    url: /about/
+  - title: CS
+    url: /CS/
+  # - title: Backend
+  #   url: /docs/
+  # - title: About
+  #   url: /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -77,20 +77,20 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
-accent_color: rgb(79,177,186)
+accent_image: /assets/img/back.png
+accent_color: rgb(94, 161, 82)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color: rgb(25,55,71)
+theme_color: rgb(96, 160, 112)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -111,12 +111,12 @@ defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
   - scope:
-      path: hyde/
+      path: /
     values:
-      accent_color: rgb(38,139,210)
-      theme_color: rgb(32,32,32)
+      accent_color: rgb(94, 161, 82)
+      theme_color: rgb(96, 160, 112)
       accent_image:
-        background: rgb(32,32,32)
+        background: rgb(96, 160, 112)
         overlay: false
 
   # Don't include documents in assets in the sitemap
