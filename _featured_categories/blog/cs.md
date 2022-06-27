@@ -2,7 +2,7 @@
 layout: list
 list: true
 category: blog
-title: Database
+title: CS
 description: >
   db!!
 related_posts:

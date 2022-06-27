@@ -3,7 +3,7 @@ layout: post
 title: "[DB] Replication"
 categories:
   - blog
-  - db
+  - cs
 ---
 
 데이터 베이스의 Replication에 대해 알아보자 📚

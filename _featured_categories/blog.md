@@ -25,14 +25,14 @@ sitemap: true
 ## 카테고리
 
 - [Java]{:.heading.flip-title} --- Java
-- [Database]{:.heading.flip-title} --- Database
+- [CS]{:.heading.flip-title} --- CS
 - [Algorithm]{:.heading.flip-title} --- Algorithm
 - [Spring]{:.heading.flip-title} --- Spring / SpringBoot
 - [JavaScript]{:.heading.flip-title} --- JavaScript
 - [Vue]{:.heading.flip-title} --- Vue
 
 [java]: /java/
-[database]: /db/
+[CS]: /cs/
 [algorithm]: /algo/
 [spring]: /spring/
 [javascript]: /js/

@@ -60,8 +60,8 @@ menu:
         url: /spring/
       - title: Vue
         url: /vue/
-      - title: Database
-        url: /db/
+      - title: CS
+        url: /cs/
       - title: Algorithm
         url: /algo/
   # - title: CS
