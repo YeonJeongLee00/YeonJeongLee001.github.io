@@ -4,7 +4,7 @@ title: "[DB] Replication"
 sitemap: false
 ---
 
-데이터 베이스의 Replication에 대해 알아보자
+데이터 베이스의 Replication에 대해 알아보자 📚
 {:.lead}
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/95bnLnIxyWI" title="[10분 테코톡] ✌️ 영이의 Replication" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,7 +15,7 @@ sitemap: false
 - 원본 데이터를 가진 서버 - `소스 서버`
 - 복제된 데이터를 가지는 서버 - `레플리카(Replica) 서버`
 
-![그림1.png](/example/img/img1.png){: width="70%"}
+![그림1.png](../img/img1.png){: width="70%"}
 
 ## 사용 이유?
 
@@ -57,9 +57,9 @@ show binary logs; # 바이너리 로그 파일 목록
 show master status; # 파일명과 위치정보
 ```
 
-![show binary logs;](/example/img/img3.png){: width="70%"}
+![show binary logs;](../img/img3.png){: width="70%"}
 
-![show master status;](/example/img/img2.png){: width="70%"}
+![show master status;](../img/img2.png){: width="70%"}
 
 > 소스 서버에서 생성된 바이너리 로그가 레플리카 서버로 전송되고
 > 레플리카 서버에서는 해당 내용을 로컬 디스크에 저장한 뒤
@@ -67,7 +67,7 @@ show master status; # 파일명과 위치정보
 
 → 3개의 스레드에 의해 동작!
 
-![그림2.png](/example/img/img4.png){: width="70%"}
+![그림2.png](../img/img4.png){: width="70%"}
 
 ### Binary Log Dump Thread
 
@@ -201,14 +201,14 @@ MySQL 5.7.7 버전 이후부터 바이너리 로그 기본 포맷
 
 ### 비동기 복제
 
-![그림3.png](/example/img/img5.png){: width="70%"}
+![그림3.png](../img/img5.png){: width="70%"}
 
 - 소스 서버가 레플리카 서버에서 변경 이벤트가 정상적으로 전달 됐는지 확인하지 않음
 - 소스 서버는 레플리카 서버에 적용이 잘 됐는지 알지 못하게되고 소스 서버에 장애가 발생하면 소스 서버에서 최근까지 적용된 트랜잭션이 레플리카 서버로 전송되지 않을 수 있다
 
 ### 반동기 복제
 
-![그림5.png](/example/img/img6.png){: width="70%"}
+![그림5.png](../img/img6.png){: width="70%"}
 
 - 소스 서버는 레플리카 서버가 소스 서버로부터 전달 받은 변경 이벤트를 릴레이 로그에 기록 후 응답을 보내면 그 때 트랜잭션을 완전히 커밋
 - 적어도 하나의 레플리카 서버에 트랜잭션이 전송됐음을 보장
@@ -218,8 +218,8 @@ MySQL 5.7.7 버전 이후부터 바이너리 로그 기본 포맷
 
 ## 소스, 레플리카 서버 어떻게 구성?
 
-![그림8.png](/example/img/img7.png)
-![그림7.png](/example/img/img8.png)
+![그림8.png](../img/img7.png)
+![그림7.png](../img/img8.png)
 
 ### 싱글 레플리카 복제
 
