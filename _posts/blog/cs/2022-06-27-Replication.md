@@ -8,6 +8,8 @@ categories:
 
 데이터 베이스의 Replication에 대해 알아보자 📚
 {:.lead}
+* this list will be replaced by the toc
+{:toc .large-only}
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/95bnLnIxyWI" title="[10분 테코톡] ✌️ 영이의 Replication" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

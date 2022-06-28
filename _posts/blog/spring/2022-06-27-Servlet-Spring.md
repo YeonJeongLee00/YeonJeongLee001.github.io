@@ -9,6 +9,9 @@ categories:
 Servlet과 Servlet을 사용하는 Spring Web MVC 📚
 {:.lead}
 
+* this list will be replaced by the toc
+{:toc .large-only}
+
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/2pBsXI01J6M" title="[10분 테코톡] 🌻타미의 Servlet vs Spring" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
